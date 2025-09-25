@@ -1,1 +1,16 @@
 
+// DFS : Depth First Search
+// Thuật toán tìm kiếm theo chiều sâu : Ưu tiên duyệt xuống nhất có thể trước khi quay lại 
+// Pseudocode :
+// Bắt đầu duyệt từ đỉnh u 
+
+DFS(u){
+  <Tham Dinh u>;
+visited[u]=true; // Đánh dấu là u đã được thăm
+// Duyệt các đỉnh kề với đỉnh u
+for(v : adj[u]{
+    if(!visited[v]){ // Nếu u chưa được tham
+      DFS(v);
+      }
+    }
+  }
